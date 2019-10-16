@@ -8,8 +8,8 @@ from sklearn.metrics import mean_squared_error
 
 
 #Loading training and test data
-df=pd.read_csv('C:/Users/ADMIN/Documents/Machine Learning/Training1.csv')
-df1=pd.read_csv('C:/Users/ADMIN/Documents/Machine Learning/Training2.csv')
+df=pd.read_csv('TrainingData.csv')
+df1=pd.read_csv('TestData.csv')
 
 #Imputer step to fill in all missing values:
 df.iat[0,2] = 'other'
